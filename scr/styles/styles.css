@@ -34,9 +34,10 @@ body {
     padding-left: 2rem;
 }
 header p {
-    font-family: 'Inconsolata', monospace;
     text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
     font-size: 2.2rem;
+    font-weight: bold;
 }
 
 /* ----------------- MAIN ----------------- */
@@ -71,6 +72,10 @@ main {
 .main__container-subtitle p {
     color: var(--light-grey);
 }
+.main__container button a {
+    text-decoration: none;
+    color: var(--white);
+}
 .main__container button {
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -78,6 +83,7 @@ main {
     background-color: var(--grey);
     border: none;
     padding: 2rem 2.5rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 /* ----------------- FOOTER ----------------- */
