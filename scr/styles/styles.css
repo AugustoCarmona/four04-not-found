@@ -81,7 +81,7 @@ header p {
     background-color: var(--grey);
     border: none;
     padding: 2rem 2.5rem;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 1.2rem 1.2rem 0.2rem 0.1rem rgba(0, 0, 255, .2);
 }
 
 /* ----------------- FOOTER ----------------- */
@@ -102,6 +102,7 @@ header p {
     font-weight: bold;
     color: var(--grey);
 }
+<<<<<<< HEAD
 
 /* ----------------- MEDIA QUERIES ----------------- */
 @media only screen and (max-width: 66.7rem) {
@@ -156,3 +157,5 @@ header p {
         bottom: 0;
     }
 }
+=======
+>>>>>>> c90e0de80511b8f46142e8a6e317bf2b71ee6f9c
