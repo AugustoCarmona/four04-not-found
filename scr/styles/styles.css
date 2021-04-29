@@ -1,0 +1,18 @@
+/* ----------------- GLOBALS ----------------- */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem == 10 */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 16px;
+}
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+    --white: #FFFFFF;
+}
