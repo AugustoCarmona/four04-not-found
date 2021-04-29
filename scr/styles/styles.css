@@ -1,3 +1,8 @@
+/*
+ * Fonts where finded with www.whatfontis.com
+ * Colors where finded with https://www.site24x7.com/es/tools/selector-de-codigo-color.html
+ */
+
 /* ----------------- GLOBALS ----------------- */
 html {
     box-sizing: border-box;
@@ -6,13 +11,96 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
 }
-body {
-    font-size: 16px;
-}
-* {
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
 :root {
     --white: #FFFFFF;
+    --light-grey: #636363;
+    --light-grey-footer: #bdbdbd;
+    --grey: #333333;
+}
+
+body {
+    font-size: 16px;
+}
+body {
+    color: var(--grey);
+}
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+/* ----------------- HEADER ----------------- */
+.header {
+    padding-left: 2rem;
+}
+header p {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+/* ----------------- MAIN ----------------- */
+main {
+    position: relative;
+}
+.scarecrow {
+    max-width: 80%;
+    padding-top: 3rem;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__container {
+    padding-left: 2rem;
+    padding-right: 2.2rem;
+}
+.main__container-title {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+.main__container-body {
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 4.5rem;
+    margin-right: 3rem;
+}
+.main__container-subtitle p {
+    color: var(--light-grey);
+}
+.main__container button {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: var(--grey);
+    border: none;
+    padding: 2rem 2.5rem;
+}
+
+/* ----------------- FOOTER ----------------- */
+footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer p {
+    color: var(--light-grey-footer);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.footer a {
+    color: var(--light-grey-footer);
+}
+.footer span {
+    font-weight: bold;
+    color: var(--grey);
 }
