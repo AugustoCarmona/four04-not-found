@@ -1,0 +1,158 @@
+/*
+ * Fonts where finded with www.whatfontis.com
+ * Colors where finded with https://www.site24x7.com/es/tools/selector-de-codigo-color.html
+ */
+
+/* ----------------- GLOBALS ----------------- */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem == 10 */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --white: #FFFFFF;
+    --light-grey: #636363;
+    --light-grey-footer: #bdbdbd;
+    --grey: #333333;
+}
+
+body {
+    font-size: 16px;
+}
+body {
+    color: var(--grey);
+}
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+/* ----------------- HEADER ----------------- */
+.header {
+    padding-left: 2rem;
+}
+header p {
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+/* ----------------- MAIN ----------------- */
+.scarecrow {
+    max-width: 80%;
+    padding-top: 3rem;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+.main__container {
+    padding-left: 2rem;
+    padding-right: 2.2rem;
+}
+.main__container-title {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+.main__container-body {
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 4.5rem;
+    margin-right: 3rem;
+}
+.main__container-subtitle p {
+    color: var(--light-grey);
+}
+.main__container button a {
+    text-decoration: none;
+    color: var(--white);
+}
+.main__container button {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: var(--grey);
+    border: none;
+    padding: 2rem 2.5rem;
+    box-shadow: 1.2rem 1.2rem 0.2rem 0.1rem rgba(0, 0, 255, .2);
+}
+
+/* ----------------- FOOTER ----------------- */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer p {
+    color: var(--light-grey-footer);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.footer a {
+    color: var(--light-grey-footer);
+}
+.footer span {
+    font-weight: bold;
+    color: var(--grey);
+}
+
+/* ----------------- MEDIA QUERIES ----------------- */
+@media only screen and (max-width: 66.7rem) {
+    .footer {
+        text-align: center;
+        padding: 0 5rem; /**/
+    }
+}
+
+@media only screen and (min-width: 102.4rem) {
+    /* ----------------- HEADER ----------------- */
+    .header {
+        padding-top: 1rem; /**/
+        padding-left: 6rem; /**/
+    }
+    header p {
+        text-transform: uppercase;
+        font-family: 'Inconsolata', monospace;
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
+    /* ----------------- MAIN ----------------- */
+    .scarecrow {
+        max-width: 100%; 
+        padding-right: 10rem; 
+    }
+    .main {
+        display: grid; 
+        height: 60rem; 
+        grid-template-columns: 50rem 50rem; 
+        justify-content: center; 
+        align-content: center; 
+    }
+    .main__container {
+        padding-left: 5rem; 
+    }
+    .main__container-title {
+        line-height: 6rem; 
+        margin-bottom: 2.5rem;
+    }
+    .main__container-body {
+        line-height: 3rem; 
+        margin-right: 15rem; 
+    }
+
+    /* ----------------- FOOTER ----------------- */
+    footer{
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+}
