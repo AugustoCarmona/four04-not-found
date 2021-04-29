@@ -60,7 +60,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Check my personal site](https://{augustocarmona.github.io})
+- [Check my personal site](https://{augustocarmona.github.io})
 
 <!-- TABLE OF CONTENTS -->
 <!-- OVERVIEW -->
