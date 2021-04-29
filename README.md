@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://four04-not-found.herokuapp.com">
       Demo
     </a>
     <span> | </span>
@@ -22,13 +22,13 @@
   </h3>
 </div>
 
+![screenshot](https://i.ibb.co/kB7qsQR/Captura-de-Pantalla-2021-04-29-a-la-s-19-49-39.png)
+
 <!--
 
-https://four04-not-found.herokuapp.com
+https://four04-not-found.herokuapp.com link
 
-https://i.ibb.co/kB7qsQR/Captura-de-Pantalla-2021-04-29-a-la-s-19-49-39.png
-
-https://i.ibb.co/5FNNMTv/Captura-de-Pantalla-2021-04-29-a-la-s-19-53-08.png
+https://i.ibb.co/5FNNMTv/Captura-de-Pantalla-2021-04-29-a-la-s-19-53-08.png mobile
 
 ## Table of Contents
 
@@ -39,7 +39,6 @@ https://i.ibb.co/5FNNMTv/Captura-de-Pantalla-2021-04-29-a-la-s-19-53-08.png
 - [Acknowledgements](#acknowledgements)
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 -->
 ### Built With
 
@@ -57,10 +56,11 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
+-->
+
 ## Contact
 
 - Website [Check my personal site](https://{augustocarmona.github.io})
--->
 
 <!-- TABLE OF CONTENTS -->
 <!-- OVERVIEW -->
