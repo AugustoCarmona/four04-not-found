@@ -41,9 +41,6 @@ header p {
 }
 
 /* ----------------- MAIN ----------------- */
-main {
-    position: relative;
-}
 .scarecrow {
     max-width: 80%;
     padding-top: 3rem;
@@ -52,6 +49,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 8rem;
 }
 .main__container {
     padding-left: 2rem;
@@ -87,12 +85,6 @@ main {
 }
 
 /* ----------------- FOOTER ----------------- */
-footer{
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
 .footer {
     display: flex;
     justify-content: center;
@@ -109,4 +101,58 @@ footer{
 .footer span {
     font-weight: bold;
     color: var(--grey);
+}
+
+/* ----------------- MEDIA QUERIES ----------------- */
+@media only screen and (max-width: 66.7rem) {
+    .footer {
+        text-align: center;
+        padding: 0 5rem; /**/
+    }
+}
+
+@media only screen and (min-width: 102.4rem) {
+    /* ----------------- HEADER ----------------- */
+    .header {
+        padding-top: 1rem; /**/
+        padding-left: 6rem; /**/
+    }
+    header p {
+        text-transform: uppercase;
+        font-family: 'Inconsolata', monospace;
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
+    /* ----------------- MAIN ----------------- */
+    .scarecrow {
+        max-width: 100%; 
+        padding-right: 10rem; 
+    }
+    .main {
+        display: grid; 
+        height: 60rem; 
+        grid-template-columns: 50rem 50rem; 
+        justify-content: center; 
+        align-content: center; 
+    }
+    .main__container {
+        padding-left: 5rem; 
+    }
+    .main__container-title {
+        line-height: 6rem; 
+        margin-bottom: 2.5rem;
+    }
+    .main__container-body {
+        line-height: 3rem; 
+        margin-right: 15rem; 
+    }
+
+    /* ----------------- FOOTER ----------------- */
+    footer{
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
 }
