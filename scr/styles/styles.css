@@ -102,7 +102,6 @@ header p {
     font-weight: bold;
     color: var(--grey);
 }
-<<<<<<< HEAD
 
 /* ----------------- MEDIA QUERIES ----------------- */
 @media only screen and (max-width: 66.7rem) {
@@ -157,5 +156,3 @@ header p {
         bottom: 0;
     }
 }
-=======
->>>>>>> c90e0de80511b8f46142e8a6e317bf2b71ee6f9c
