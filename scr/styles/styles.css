@@ -83,7 +83,7 @@ main {
     background-color: var(--grey);
     border: none;
     padding: 2rem 2.5rem;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 1.2rem 1.2rem 0.2rem 0.1rem rgba(0, 0, 255, .2);
 }
 
 /* ----------------- FOOTER ----------------- */
